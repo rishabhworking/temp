@@ -1,3 +1,5 @@
+[![N|Solid](https://explorer.ariettachain.tech/images/archheader-5f0aa4456684da4cd144733f729a4e5b.png)](#)
+
 # Arietta Smart Chain Node Setup
 
 This guide will help you set up an Arietta Smart Chain node on your server.
@@ -169,7 +171,7 @@ systemctl start ascnetwork
 ```
 systemctl status ascnetwork
 ```
-This
+(Additional restart for generating "Network and Consensus Keys" as we used Quick Sync)
 ```
 systemctl restart ascnetwork
 ```
@@ -180,5 +182,4 @@ If you are setting up a Validator Node, then output the secrets by running the f
 polygon-edge secrets output --data-dir /data/ascnetwork/
 ```
 
-### Your Arietta Smart Chain node is now up and running!
-### Enjoy using Arietta Smart Chain.
+## Step 10:  Enjoy using Arietta Smart Chain.

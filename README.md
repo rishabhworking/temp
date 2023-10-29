@@ -34,14 +34,11 @@ useradd -m -s /usr/sbin/nologin -d /var/lib/ascnetwork ascnetwork
 Create data directories and set permissions for the new user.
 ```
 mkdir -p /data/ascnetwork
-```
-```
+
 mkdir -p /etc/ascnetwork
-```
-```
+
 chown -R ascnetwork:ascnetwork /data/ascnetwork
-```
-```
+
 chown -R ascnetwork:ascnetwork /etc/ascnetwork
 ```
 
